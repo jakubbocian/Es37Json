@@ -7,9 +7,13 @@ import java.nio.file.*;
 import java.util.ArrayList;
 
 public class Main {
+<<<<<<< Updated upstream
     private static String readFromFile(String path) throws IOException {
         byte[] content = Files.readAllBytes(Paths.get(path));
         return new String(content);
+=======
+    public static void main(String[] args) {
+>>>>>>> Stashed changes
     }
 
     public static void main(String[] args) throws IOException {
