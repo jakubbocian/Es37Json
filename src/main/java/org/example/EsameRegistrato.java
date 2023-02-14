@@ -1,9 +1,9 @@
 package org.example;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class EsameRegistrato {
     String nome;
     int giorniDopoPrelievo;
-    List<Strumenti> strumenti;
+    ArrayList<Strumenti> strumenti;
 }
