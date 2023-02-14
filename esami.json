@@ -1,0 +1,28 @@
+{
+  "esami": [
+    {
+      "nome": "Emocromo",
+      "giorniDopoPrelievo": 1,
+      "strumenti": [
+        {
+          "matricola": "STR001",
+          "operatoriAbilitati": ["OPR123456", "OPR789012"]
+        },
+        {
+          "matricola": "STR002",
+          "operatoriAbilitati": ["OPR789012"]
+        }
+      ]
+    },
+    {
+      "nome": "Glicemia",
+      "giorniDopoPrelievo": 1,
+      "strumenti": [
+        {
+          "matricola": "STR001",
+          "operatoriAbilitati": ["OPR789012"]
+        }
+      ]
+    }
+  ]
+}

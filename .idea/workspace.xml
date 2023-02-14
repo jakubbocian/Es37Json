@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86818ff5-90b5-4f63-b738-bf7ed70b0fd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/analisiSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analisi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esami.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/esamiSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/analisiSchema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/analisiSchema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/JAKUBBOCIAN/IdeaProjects/JSONwriter"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
