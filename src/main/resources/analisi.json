@@ -1,5 +1,5 @@
-{
-  "analisi": {
+[
+  {
     "nome": "Mario",
     "cognome": "Rossi",
     "codiceFiscale": "RSSMRA80A01H501L",
@@ -11,7 +11,10 @@
       {
         "dataOraAnalisi": "2023-02-15T10:00:00+00:00",
         "codiceOperatore": "OPR123456",
-        "matricolaStrumenti": ["STR001", "STR002"],
+        "matricolaStrumenti": [
+          "STR001",
+          "STR002"
+        ],
         "nomeAnalisi": "Emocromo",
         "risultato": {
           "valore": 4.5,
@@ -23,7 +26,9 @@
       {
         "dataOraAnalisi": "2023-02-15T11:30:00+00:00",
         "codiceOperatore": "OPR789012",
-        "matricolaStrumenti": ["STR001"],
+        "matricolaStrumenti": [
+          "STR001"
+        ],
         "nomeAnalisi": "Glicemia",
         "risultato": {
           "valore": 90,
@@ -34,4 +39,5 @@
       }
     ]
   }
-}
+]
+

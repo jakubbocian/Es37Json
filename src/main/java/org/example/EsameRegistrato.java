@@ -1,9 +1,9 @@
 package org.example;
 
-import java.lang.reflect.Array;
+import java.util.List;
 
 public class EsameRegistrato {
     String nome;
     int giorniDopoPrelievo;
-    Strumenti strumenti[];
+    List<Strumenti> strumenti;
 }
