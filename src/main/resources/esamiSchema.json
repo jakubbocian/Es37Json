@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "title": "Esami",
+  "type": "object",
+  "properties": {
+    "esami": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "giorniDopoPrelievo": {
+            "type": "integer"
+          },
+          "strumenti": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "matricola": {
+                  "type": "string"
+                },
+                "operatoriAbilitati": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,79 +1,83 @@
 {
-  "title": "Analisi",
-  "type": "object",
-  "properties": {
-    "nome": {
-      "type": "string"
-    },
-    "cognome": {
-      "type": "string"
-    },
-    "codiceFiscale": {
-      "type": "string"
-    },
-    "sesso": {
-      "type": "string"
-    },
-    "eta": {
-      "type": "integer"
-    },
-    "dataOraPrelievo": {
-      "type": "date",
-      "format": "date-time"
-    },
-    "luogoPrelievo": {
-      "type": "string",
-      "enum": [
-        "Centro territoriale",
-        "Reparto ospedaliero",
-        "Domicilio del paziente",
-        "Pronto soccorso",
-        "Ambulanza"
-      ]
-    },
-    "esami": [
-      {
-        "type": "object",
-        "properties": {
-          "dataOraAnalisi": {
-            "type": "date",
-            "format": "date-time"
-          },
-          "codiceOperatore": {
-            "type": "string",
-            "minLength": 9,
-            "maxLength": 9
-          },
-          "matricolaStrumenti": {
-            "type": "array",
-            "items": {
-              "type": "integer"
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "title": "analisi",
+  "analisi": {
+    "type": "object",
+    "properties": {
+      "nome": {
+        "type": "string"
+      },
+      "cognome": {
+        "type": "string"
+      },
+      "codiceFiscale": {
+        "type": "string"
+      },
+      "sesso": {
+        "type": "string"
+      },
+      "eta": {
+        "type": "integer"
+      },
+      "dataOraPrelievo": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "luogoPrelievo": {
+        "type": "string",
+        "enum": [
+          "Centro territoriale",
+          "Reparto ospedaliero",
+          "Domicilio del paziente",
+          "Pronto soccorso",
+          "Ambulanza"
+        ]
+      },
+      "esami": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "dataOraAnalisi": {
+              "type": "date",
+              "format": "date-time"
             },
-            "minItems": 0,
-            "maxItems": 5
-          },
-          "nomeAnalisi": {
-            "type": "string"
-          },
-          "risultato": {
-            "type": "object",
-            "properties": {
-              "valore": {
-                "type": "number"
-              },
-              "unitaMisura": {
+            "codiceOperatore": {
+              "type": "string",
+              "minLength": 9,
+              "maxLength": 9
+            },
+            "matricolaStrumenti": {
+              "type": "array",
+              "items": {
                 "type": "string"
               },
-              "valoreRiferimentoMin": {
-                "type": "number"
-              },
-              "valoreRiferimentoMax": {
-                "type": "number"
+              "minItems": 0,
+              "maxItems": 5
+            },
+            "nomeAnalisi": {
+              "type": "string"
+            },
+            "risultato": {
+              "type": "object",
+              "properties": {
+                "valore": {
+                  "type": "number"
+                },
+                "unitaMisura": {
+                  "type": "string"
+                },
+                "valoreRiferimentoMin": {
+                  "type": "number"
+                },
+                "valoreRiferimentoMax": {
+                  "type": "number"
+                }
               }
             }
           }
         }
       }
-    ]
+    }
   }
 }
